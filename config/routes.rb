@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  cms_fortress_routes :path => '/cms-admin'
+
   comfy_route :cms_admin, :path => '/admin'
 
   # Make sure this routeset is defined last

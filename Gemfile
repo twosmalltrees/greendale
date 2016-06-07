@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'comfortable_mexican_sofa', '~> 1.12.0'
 
+gem 'cms-fortress', git: 'https://github.com/twosmalltrees/cms-fortress'
+
 gem 'will_paginate', '~> 3.1.0'
 
 # Use ActiveModel has_secure_password
